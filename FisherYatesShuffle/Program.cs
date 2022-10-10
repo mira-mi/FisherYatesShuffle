@@ -35,7 +35,7 @@ class Program
       /*this is all what the application does
        * it takes an external data file called RandomThing.txt and shuffles it
        * it uses a random generator as well to send out a random one
-       * 
+       * it's built like a random number generator almost
        */
     }
 
