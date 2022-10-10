@@ -7,8 +7,10 @@ using System.Text;
 class Program
 {
     private string QuotesFilePath = "RandomThing.txt";
+    //haven't done this in a while
 
     private static Random random = new Random();
+    //or this
 
     public static void Shuffle<T>(T[] QuotesFilePath)
     {
@@ -19,6 +21,8 @@ class Program
             T t = QuotesFilePath[r];
             QuotesFilePath[r] = QuotesFilePath[i];
             QuotesFilePath[i] = t;
+            //this is almost built like a random number generator
+            //it was a weird form of the number generator
         }
 
     }
